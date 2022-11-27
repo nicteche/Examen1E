@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GanadorScreem">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="196dp"
+        android:layout_height="22dp"
+        android:text="Ha ganado una entrada al cine"
+        android:layout_margin="40dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="137dp"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="224dp"
+        android:layout_height="192dp"
+        android:layout_margin="20dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="283dp"
+        app:srcCompat="@drawable/caritafeliz"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="224dp"
+        android:layout_height="192dp"
+        android:layout_margin="20dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="283dp"
+        app:srcCompat="@drawable/QqrGanador" />
+
+    <Button
+        android:id="@+id/btnSalirG"
+        android:layout_width="256dp"
+        android:layout_height="51dp"
+        android:text="Salir"
+        android:onClick="salir"
+        android:layout_margin="20dp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+
+
+
+</TableLayout>
